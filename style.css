@@ -1,0 +1,199 @@
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+    nav p {
+      font-size: 1rem;
+    }
+    button {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    nav {
+      padding: 0.5rem;
+    }
+    nav p {
+      font-size: 0.8rem;
+    }
+    button {
+      font-size: 0.8rem;
+    }
+  }
+
+@font-face {
+    font-family: 'Star Wars';
+    src: url(/fonts/soloistacad.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arrows';
+    src: url(/fonts/soloistchrome.ttf);
+    font-weight: normal;
+    font-size: normal;
+}
+
+body {
+    background-image: url('https://images4.alphacoders.com/132/1327480.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center;
+    height: 100vh;
+    margin: 0;
+}
+
+#title {
+    font-family: 'Star Wars';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 5vw;
+    width: 30vw;
+    text-align: center;
+    transition: all 1s ease;
+}
+
+nav{
+    display: flex;
+    p{
+        display: block;
+        width: 10vw;
+        transition: all 1s ease;
+    }
+}
+
+p#title.people{
+    color: red;
+}
+
+p#title.films{
+    color: orange;
+}
+
+p#title.species{
+    color: green;
+}
+
+p#title.planets{
+    color: rgb(170, 142, 126);
+}
+
+p#title.vehicles{
+    color: rgb(210, 86, 195);
+}
+
+p#title.starships{
+    color: rgb(26, 127, 173);
+}
+
+p#title.people ~ nav p{
+    color: red;
+}
+
+p#title.films ~ nav p{
+    color: orange;
+}
+
+p#title.species ~ nav p{
+    color: green;
+}
+
+p#title.planets ~ nav p{
+    color: rgb(170, 142, 126);
+}
+
+p#title.vehicles ~ nav p{
+    color: rgb(210, 86, 195);
+}
+
+p#title.starships ~ nav p{
+    color: rgb(26, 127, 173);
+}
+
+#previous {
+    font-family: 'Arrows';
+    font-weight: normal;
+    font-size: normal;
+    font-size: 5vw;
+    text-align: center;
+}
+
+#next {
+    font-family: 'Arrows';
+    font-weight: normal;
+    font-size: normal;
+    font-size: 5vw;
+    text-align: center;
+}
+
+nav p {
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
+  #previous, #next {
+    font-size: 2rem;
+    margin: 0 0.5rem;
+  }
+
+  .details {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .details h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .details {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.details h1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
